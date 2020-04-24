@@ -25,6 +25,7 @@ export default class DataApiDriver {
       secretArn,
       resourceArn,
       database,
+      formatOptions: { deserializeDate: true },
       options: this.serviceConfigOptions,
     })
   }
